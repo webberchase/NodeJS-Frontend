@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <!-- Bootstrap -->
+    <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Personal CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+          <div class="card-body">
+            <h5 class="card-title text-center">Item and Tool Inventory</h5>
+            <form class="form-signin" action="/forms/item" method="POST">
+              <div class="form-label-group">
+                <input type="text" id="item" name="item" class="form-control" placeholder="Please Enter Item Name" required autofocus>
+                <label for="title">Item Name</label>
+              </div>
+              <div class="form-label-group">
+                <input type="number" id="quantity" name="quantity" class="form-control" placeholder="Enter Quantity">
+                <label for="Quantity">Quantity</label>
+              </div>
+              <div class="form-label-group">
+                  <span class="label-input100">What type of product is it?</span>
+        
+                  <div class="form-label-group">
+                    <input class="input-radio100" id="radio1" type="radio" name="type-product" value="physical" checked="checked">
+                    <label class="label-radio100" for="radio1">
+                      Tools
+                    </label>
+                  </div>
+        
+                  <div class="form-label-group">
+                    <input class="input-radio100" id="radio2" type="radio" name="type-product" value="digital">
+                    <label class="label-radio100" for="radio2">
+                      Material
+                    </label>
+                  </div>
+        
+                </div>
+              <div class="form-label-group">
+                  <input type="description" id="description" name="description" class="form-control" placeholder="Enter Description">
+                  <label for="Description">Description</label>
+                </div>
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+  <!-- scripts -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+  <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+</html>
