@@ -15,7 +15,12 @@ body {
   justify-content: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #f5f5f5;
+  background-color: #E7E7D1;
+}
+
+.bg-nav{
+  background-color: #a1a192;
+  
 }
 
 .form-signin {
