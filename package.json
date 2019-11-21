@@ -19,6 +19,8 @@
     "express-session": "^1.17.0",
     "express-validator": "^6.2.0",
     "morgan": "^1.9.1",
+    "node-ipc": "^9.1.1",
+    "nodejs": "0.0.0",
     "nodemon": "^1.19.4",
     "path": "^0.12.7",
     "superagent": "^5.1.0"
