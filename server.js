@@ -3,7 +3,7 @@ const debug = require('debug')('app');
 require('dotenv').config();
 const { app } = require('./app');
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 
 // Start up the server!
 const startServer = async () => {

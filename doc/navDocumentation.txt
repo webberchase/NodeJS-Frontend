@@ -1,0 +1,7 @@
+++++++++
+Navbar Documentation
++++++++++
+
+1. Add the Navigation bar in the index page or other pages you want.
+2. Adding the smooth-scroll script by uploading the script in js file and import at the bottom of your index page or other pages you need.Add the var smooth-data-scroll with your nav buttons.
+3.
