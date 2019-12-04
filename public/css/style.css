@@ -1,5 +1,10 @@
 body {
   padding-top: 5rem;
+  background-color: #E7E7D1;
+}
+.bg-nav{
+  background-color: #a1a192;
+
 }
 .starter-template {
   padding: 3rem 1.5rem;
