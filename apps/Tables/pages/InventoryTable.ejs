@@ -54,7 +54,8 @@
         <h2>Inventory Table</h2>
   
         <h4>Add New Inventory Item (make this a button)</h4>
-  
+        <a href="/get-data"></a>
+
         <table>
           <tr>
             <th>Item ID</th>
@@ -67,17 +68,21 @@
             <th>Last Update</th>
             <th>Employee</th>
           </tr>
-          <tr>
-            <td>Test Item ID</td>
-            <td>Test Type</th>
-            <td>Test Description</td>
-            <td>Test Length</td>
-            <td>Test Width</td>
-            <td>Test Height</td>
-            <td>Test Scrap?</td>
-            <td>Test Last Update</td>
-            <td>Test Employee</td>
-          </tr>
+          <div>
+            {{# each items}}
+              <article class="item">
+                <td>{{this.id}}</td>
+                <td>{{this.type}}</td>
+                <td>{{this.description}}</td>
+                <td>{{this.length}}</td>
+                <td>{{this.width}}</td>
+                <td>{{this.height}}</td>
+                <td>{{this.scrap}}</td>
+                <td>{{this.lastUpdate}}</td>
+                <td>{{this.employee}}</td>
+              </article>
+              {{/each}}
+          </div>
           <tr>
             <td>Test Item ID</td>
             <td>Test Type</th>
