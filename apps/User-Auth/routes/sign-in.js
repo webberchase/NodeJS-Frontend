@@ -23,7 +23,7 @@ router.post('/sign-in', async (req, res) => {
     username, password
   } = req.body;
 
-  const result = await superagent.post(`${process.env.API_URL}/user/sign-in`)
+  const result = await superagent.post(`http://localhost:5000/user/sign-in`)
     .send({
       key: process.env.API_KEY,
       username,
